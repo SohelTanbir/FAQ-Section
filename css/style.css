@@ -46,21 +46,26 @@ ul{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
     background: #552DDB;
 }
-.faq-header h3, .icon{
+.faq-header h3, .toggle-icon{
     font-size: 20px;
     color: #e6e5e5;
 }
 
-.faq-header .icon {
+.faq-header .toggle-icon {
     font-size: 25px;
+    text-align: center;
+}
+.faq-header .toggle-icon i.minus_icon{
+    display: none;
 }
 .faq-body{
+    display: none;
     width: 100%;
     padding:10px 20px;
     cursor: pointer;
@@ -68,8 +73,15 @@ ul{
     background: #6640e5;
 }
 .faq-body p{
-    font-size: 16px;
-    color: #e6e5e5;
+    font-size: 14px;
+    font-weight: 600;
+    color: #dfdfdf;
     line-height: 25px;
     text-align:left;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
 }

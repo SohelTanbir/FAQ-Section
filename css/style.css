@@ -64,7 +64,7 @@ ul{
 
 }
 .faq-header .toggle-icon i{
-    animation: rotateIcon .5s ease-in;
+    animation: rotateIcon .2s ease-in;
 }
 .faq-header .toggle-icon i.minus_icon{
     display: none;
@@ -84,8 +84,11 @@ ul{
     line-height: 25px;
     text-align:left;
 }
-.show{
+.d-block{
     display: block;
+}
+.show{
+    display: block!important;
 }
 .hide{
     display: none;
@@ -95,7 +98,6 @@ ul{
         transform: rotate(0deg);
     }
     100%{
-        transition: .5s;
         transform: rotate(180deg);
     }
 }

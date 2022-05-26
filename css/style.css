@@ -37,9 +37,39 @@ ul{
 .faq-title{
     font-size:25px;
     font-weight: 600;
-    padding: 30px 0;
+    padding: 50px 0;
     text-align: center;
-    color: #fff;
+    color: #f3f3f3;
 }
-.faq-header{}
-.faq-body{}
+.faq-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #552DDB;
+}
+.faq-header h3, .icon{
+    font-size: 20px;
+    color: #e6e5e5;
+}
+
+.faq-header .icon {
+    font-size: 25px;
+}
+.faq-body{
+    width: 100%;
+    padding:10px 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #6640e5;
+}
+.faq-body p{
+    font-size: 16px;
+    color: #e6e5e5;
+    line-height: 25px;
+    text-align:left;
+}
